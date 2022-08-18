@@ -5,8 +5,8 @@ import java.io.PrintStream;
 public class Calculator {
 	private final PrintStream printer;
 
-	public Calculator(){
-		printer = System.out;
+	public Calculator(PrintStream printer){
+		this.printer = printer;
 	}
 
 	public long add(long one, long two) {

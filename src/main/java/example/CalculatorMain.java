@@ -3,7 +3,7 @@ package example;
 public class CalculatorMain {
 
 	public static void main(String[] args) {
-		Calculator calculator = new Calculator();
+		Calculator calculator = new Calculator(System.out);
 		CalculateAndPrint calculateAndPrint = new CalculateAndPrint(calculator);
 		calculateAndPrint.run();
 
