@@ -1,6 +1,5 @@
 package example;
 
-import java.io.PrintStream;
 
 public class Calculator {
 	private final PrintStream printer;
