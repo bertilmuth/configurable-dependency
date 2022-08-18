@@ -2,9 +2,9 @@ package example;
 
 
 public class Calculator {
-	private final PrintStream printer;
+	private final Printer printer;
 
-	public Calculator(PrintStream printer){
+	public Calculator(Printer printer){
 		this.printer = printer;
 	}
 

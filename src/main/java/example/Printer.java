@@ -1,5 +1,5 @@
 package example;
 
-public interface PrintStream {
+public interface Printer {
 	void println(String text);
 }
