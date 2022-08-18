@@ -8,7 +8,7 @@ class CalculatorTest {
 
 	@BeforeEach
 	void setup() {
-		calculator = new Calculator(new ConsolePrinter());
+		calculator = new Calculator(new IdlePrinter());
 	}
 
 	@Test
