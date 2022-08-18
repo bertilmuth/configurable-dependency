@@ -1,7 +1,12 @@
 package example;
 
+import java.io.PrintStream;
+
 public class Calculator {
+	private final PrintStream printer;
+
 	public Calculator(){
+		printer = System.out;
 	}
 
 	public long add(long one, long two) {
@@ -17,6 +22,6 @@ public class Calculator {
 	}
 
 	private void printResult(long result) {
-		System.out.println("The result is: " + result);
+		printer.println("The result is: " + result);
 	}
 }
